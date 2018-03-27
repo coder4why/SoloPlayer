@@ -14,6 +14,10 @@
 		4A44BE7D2069D94E009BCD3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A44BE7B2069D94E009BCD3D /* LaunchScreen.storyboard */; };
 		4A44BE882069D94E009BCD3D /* SoloPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A44BE872069D94E009BCD3D /* SoloPlayerTests.swift */; };
 		4A44BE932069D94E009BCD3D /* SoloPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A44BE922069D94E009BCD3D /* SoloPlayerUITests.swift */; };
+		4A44BEA12069D97E009BCD3D /* SoloPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A44BEA02069D97E009BCD3D /* SoloPlayerView.swift */; };
+		4A44BEA32069E836009BCD3D /* Test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4A44BEA22069E836009BCD3D /* Test.mp4 */; };
+		4A44BEA52069F0A9009BCD3D /* SoloSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A44BEA42069F0A9009BCD3D /* SoloSlider.swift */; };
+		4A44BEA72069F0B2009BCD3D /* SoloSlider.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A44BEA62069F0B2009BCD3D /* SoloSlider.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		4A44BE8E2069D94E009BCD3D /* SoloPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoloPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A44BE922069D94E009BCD3D /* SoloPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoloPlayerUITests.swift; sourceTree = "<group>"; };
 		4A44BE942069D94E009BCD3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A44BEA02069D97E009BCD3D /* SoloPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoloPlayerView.swift; sourceTree = "<group>"; };
+		4A44BEA22069E836009BCD3D /* Test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Test.mp4; sourceTree = "<group>"; };
+		4A44BEA42069F0A9009BCD3D /* SoloSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoloSlider.swift; sourceTree = "<group>"; };
+		4A44BEA62069F0B2009BCD3D /* SoloSlider.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SoloSlider.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +106,11 @@
 			isa = PBXGroup;
 			children = (
 				4A44BE722069D94E009BCD3D /* AppDelegate.swift */,
+				4A44BEA22069E836009BCD3D /* Test.mp4 */,
 				4A44BE742069D94E009BCD3D /* ViewController.swift */,
+				4A44BEA02069D97E009BCD3D /* SoloPlayerView.swift */,
+				4A44BEA42069F0A9009BCD3D /* SoloSlider.swift */,
+				4A44BEA62069F0B2009BCD3D /* SoloSlider.xib */,
 				4A44BE762069D94E009BCD3D /* Main.storyboard */,
 				4A44BE792069D94E009BCD3D /* Assets.xcassets */,
 				4A44BE7B2069D94E009BCD3D /* LaunchScreen.storyboard */,
@@ -232,9 +244,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A44BEA72069F0B2009BCD3D /* SoloSlider.xib in Resources */,
 				4A44BE7D2069D94E009BCD3D /* LaunchScreen.storyboard in Resources */,
 				4A44BE7A2069D94E009BCD3D /* Assets.xcassets in Resources */,
 				4A44BE782069D94E009BCD3D /* Main.storyboard in Resources */,
+				4A44BEA32069E836009BCD3D /* Test.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A44BEA12069D97E009BCD3D /* SoloPlayerView.swift in Sources */,
 				4A44BE752069D94E009BCD3D /* ViewController.swift in Sources */,
 				4A44BE732069D94E009BCD3D /* AppDelegate.swift in Sources */,
+				4A44BEA52069F0A9009BCD3D /* SoloSlider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
